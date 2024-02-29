@@ -7,11 +7,9 @@ import cartImg from "../../images/cart.svg";
 import avatar from "../../images/avatar.png";
 
 import "./header.css";
-import { useUser } from "../../context/use-user";
 
 export const Header = () => {
   const user = JSON.parse(localStorage.getItem("user"));
-  // const user = useUser();
   const { cart } = useCart();
   const [booksInCart, setBooksInCart] = useState();
   const navigate = useNavigate();
@@ -56,19 +54,3 @@ export const Header = () => {
     </header>
   );
 };
-
-{
-  /* <div className="user-menu">
-  <NavLink to={"/cart"}>
-    <div className="cart">
-      <img src={cartImg} alt="cart" className="header-cart" />
-      <p className="inCart">{booksInCart || 0}</p>
-    </div>
-  </NavLink>
-  <button type="submit" className="btn-singout" onClick={handleSignOut}>
-    Sign-Out
-  </button>
-  <img className="user-avatar" src={avatar} alt="avatar" />
-  <p>{user}</p>
-</div>; */
-}

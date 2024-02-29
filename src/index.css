@@ -9,11 +9,8 @@ body {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: beige; */
-  /* background-image: url("./images/background.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
   background-attachment: fixed;
 }
 
