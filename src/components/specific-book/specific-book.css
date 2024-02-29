@@ -1,0 +1,152 @@
+.book-info {
+  padding: 15px 0;
+  margin-bottom: 20px;
+  padding: 20px 0 0;
+}
+
+.bookWrap {
+  width: 250px;
+  margin: 0 auto 20px;
+}
+
+.book-info-box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.book-info-box p {
+  margin-bottom: 10px;
+}
+
+.order-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.55);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-order {
+  align-self: flex-end;
+  width: 100px;
+  height: 30px;
+  font-family: inherit;
+  font-size: 14px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background-color: white;
+  color: #ff6b08;
+  border: #ff6b08 1px solid;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-order:hover {
+  background-color: #ff6b08;
+  color: white;
+}
+
+.price-box,
+.count-form,
+.total-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.book-image {
+  width: 250px;
+}
+
+.countInput {
+  width: 150px;
+  display: flex;
+}
+
+.descrementBtn,
+.incrementBtn,
+.count {
+  width: 50px;
+  height: 40px;
+}
+
+.descrementBtn,
+.incrementBtn {
+  border: 1px solid gray;
+}
+
+.descrementBtn {
+  border-radius: 15px 0 0 15px;
+}
+
+.descrementBtn:hover,
+.incrementBtn:hover {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.incrementBtn {
+  border-radius: 0 15px 15px 0;
+}
+
+.count {
+  font-family: inherit;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.description {
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 1.25em;
+}
+
+@media screen and (min-width: 320px) {
+}
+
+@media screen and (min-width: 576px) {
+  .book-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .book-info-box {
+    margin: 0;
+  }
+  .order-box {
+    width: 250px;
+    height: 160px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+  .book-info-box {
+    margin: 0 20px;
+  }
+  .wrapper {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+}

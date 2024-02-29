@@ -1,0 +1,78 @@
+.user-foto {
+  margin-bottom: 20px;
+}
+
+.loginForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.55);
+  padding: 20px 0;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+.sing-in-form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.sing-in-form input {
+  width: 100%;
+  height: 30px;
+  margin: 15px 0 20px 0;
+  padding: 0 15px;
+  font-family: inherit;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.sing-in-btn {
+  width: 100%;
+  height: 30px;
+  font-family: inherit;
+  font-size: 14px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.sing-in-btn:enabled {
+  background-color: #ff6b08;
+  color: white;
+}
+
+.sing-in-btn:hover {
+  text-shadow: 1px 1px 0px #000000;
+}
+
+@media screen and (width: 320px) {
+  .loginForm,
+  .sing-in-form {
+    width: 100%;
+  }
+  .user-foto {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .loginForm {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .sing-in-form input {
+    width: 250px;
+  }
+  .user-foto {
+    width: 160px;
+    height: 160px;
+  }
+}

@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   text-align: center;
 }
 
@@ -35,4 +38,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  flex: 1;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 8px 0;
+}
+
+@media screen and (width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .container {
+    width: 1160px;
+  }
+}
+
+button {
+  cursor: pointer;
 }
