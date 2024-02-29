@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkx_course_task=self.webpackChunkx_course_task||[]).push([[180],{416:(s,e,r)=>{r.r(e),r.d(e,{default:()=>t});var c=r(496);const n=()=>(0,c.jsx)("div",{children:(0,c.jsx)("p",{children:"Oops, something went wrong. 404 error"})}),t=()=>(0,c.jsx)(n,{})}}]);
+//# sourceMappingURL=not-found-page.287f1a3a.chunk.js.map
